@@ -1,0 +1,33 @@
+# Demo folder (local experiments, visualizations, data)
+demo/
+
+# Paper workspace (symlinked from ~/Projects/semantic-proprioception-paper)
+semantic-proprioception-paper/
+
+# LaTeX auxiliary files (keep .bbl and .tex for arXiv)
+*.aux
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Rust build artifacts
+target/
+
+# Data files (large)
+*.parquet
+*.npy
+*.json
+!paper/*.json
